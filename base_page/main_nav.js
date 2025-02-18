@@ -10,11 +10,11 @@ document.write(
                 (page == 'basic'    ? '<li class="active">' : '<li>') +
                     '<a href="basic.html"><strong>基本攻略情報</strong><span>Basic Information</span></a></li>' +
                 (page == '1st'      ? '<li class="active">' : '<li>') +
-                    '<a href="1st.html"><strong>1面攻略</strong><span>1st Stage</span></a></li>' +
+                    '<a href="1st.html"><strong>一次会攻略</strong><span>1st Stage</span></a></li>' +
                 (page == '2nd'      ? '<li class="active">' : '<li>') +
-                    '<a href="2nd.html"><strong>2面攻略</strong><span>2nd Stage</span></a></li>' +
+                    '<a href="2nd.html"><strong>二次会攻略</strong><span>2nd Stage</span></a></li>' +
                 (page == '3rd'      ? '<li class="active">' : '<li>') +
-                    '<a href="3rd.html"><strong>3面攻略</strong><span>3rd Stage</span></a></li>' +
+                    '<a href="3rd.html"><strong>惨事会攻略</strong><span>3rd Stage</span></a></li>' +
             '</ul>' +
         '</div>' +
     '</nav>'
