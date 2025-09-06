@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>日本黄昏酒場協会</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+      <script src="js/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <script src="js/jquery1.7.2.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch.png"
+    />
+  </head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-	<title>日本黄昏酒場協会</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-	<!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-		<script src="js/css3-mediaqueries.js"></script>
-	<![endif]-->
-	<script src="js/jquery1.7.2.min.js"></script>
-	<script src="js/script.js"></script>
-	<link rel="icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch.png">
-</head>
+  <body>
+    <div id="wrapper">
+      <script src="base_page/header.js"></script>
 
-<body>
+      <script>
+        var page = "index";
+      </script>
+      <script src="base_page/main_nav.js"></script>
 
-	<div id="wrapper">
+      <div id="mainBanner">
+        <img src="images/mainImg.jpg" alt="" />
+        <div class="slogan">
+          <h2>浅間伊佐美とともに歩む団体です</h2>
+          <p>
+            浅間伊佐美に飲み会の頂点を取らせます<br />革新的な技術で浅間伊佐美を動かす団体を目指します。
+          </p>
+        </div>
+      </div>
 
-		<script src="base_page/header.js"></script>
+      <section class="gridWrapper">
+        <article class="grid">
+          <div class="box">
+            <img src="images/storylarge.jpg" width="260" height="113" alt="" />
+            <h3>黄昏酒場ストーリー解説</h3>
+            <p>
+              今からでも遅くない！？黄昏酒場を知らない人のためにストーリーをまるっと紹介！
+            </p>
+            <p class="readmore"><a href="story.html">詳細を確認する</a></p>
+          </div>
+        </article>
+        <article class="grid">
+          <div class="box">
+            <img src="images/weflarge.jpg" width="260" height="113" alt="" />
+            <h3>800万オーバーが語る、黄昏酒場の魅力</h3>
+            <p>
+              今明かされる…黄昏酒場をやりこんだものだけが分かる黄昏酒場の世界とは…
+            </p>
+            <p class="readmore"><a href="charm.html">詳細を確認する</a></p>
+          </div>
+        </article>
+        <article class="grid">
+          <div class="box">
+            <img src="images/th08large.jpg" width="260" height="113" alt="" />
+            <h3>徹底討論！黄昏酒場は東方なのか？</h3>
+            <p>何かと争いの絶えないこの話題、ついに決着がつく…！</p>
+            <p class="readmore"><a href="istouhou.html">詳細を確認する</a></p>
+          </div>
+        </article>
+      </section>
 
-		<script>
-			var page = 'index';
-		</script>
-		<script src="base_page/main_nav.js"></script>
-
-
-		<div id="mainBanner">
-			<img src="images/mainImg.jpg" alt="">
-	    	<div class="slogan">
-				<h2>浅間伊佐美とともに歩む団体です</h2>
-				<p>浅間伊佐美に飲み会の頂点を取らせます<br>革新的な技術で浅間伊佐美を動かす団体を目指します。</p>
-			</div>
-		</div>
-
-		<section class="gridWrapper">
-			<article class="grid">
-				<div class="box">
-					<img src="images/storylarge.jpg" width="260" height="113" alt="">
-					<h3>黄昏酒場ストーリー解説</h3>
-					<p>今からでも遅くない！？黄昏酒場を知らない人のためにストーリーをまるっと紹介！</p>
-					<p class="readmore"><a href="story.html">詳細を確認する</a></p>
-				</div>
-			</article>
-			<article class="grid">
-				<div class="box">
-					<img src="images/weflarge.jpg" width="260" height="113" alt="">
-					<h3>800万オーバーが語る、黄昏酒場の魅力</h3>
-					<p>今明かされる…黄昏酒場をやりこんだものだけが分かる黄昏酒場の世界とは…</p>
-					<p class="readmore"><a href="charm.html">詳細を確認する</a></p>
-				</div>
-			</article>
-			<article class="grid">
-				<div class="box">
-					<img src="images/th08large.jpg" width="260" height="113" alt="">
-					<h3>徹底討論！黄昏酒場は東方なのか？</h3>
-					<p>何かと争いの絶えないこの話題、ついに決着がつく…！</p>
-					<p class="readmore"><a href="istouhou.html">詳細を確認する</a></p>
-				</div>
-			</article>
-		</section>
-
-		<script src="base_page/footer.js"></script>
-	</div>
-
-</body>
+      <script src="base_page/footer.js"></script>
+    </div>
+  </body>
 </html>
